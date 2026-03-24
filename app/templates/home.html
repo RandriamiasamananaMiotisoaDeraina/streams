@@ -1,0 +1,9 @@
+<!-- home.html -->
+<div class="grid">
+  {% for c in contents %}
+  <div class="card">
+    <img src="{{ c.image }}">
+    <h3>{{ c.title }}</h3>
+  </div>
+  {% endfor %}
+</div>
